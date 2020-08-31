@@ -13,9 +13,7 @@ public class Desafio1A {
         int a = 0, b = 0;
         try {
             if (!br.equals(null)) {
-                StringTokenizer st = null;
-
-                st = new StringTokenizer(br.readLine());
+                StringTokenizer st = new StringTokenizer(br.readLine());
                 if (st.hasMoreTokens()) {
                     a = Integer.parseInt(st.nextToken());
                     if (st.hasMoreTokens())
