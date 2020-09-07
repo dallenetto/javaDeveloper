@@ -8,7 +8,7 @@ import java.time.LocalDate;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         System.out.println("Escolha qual exemplo executar");
 
         LocalDate d1 = LocalDate.now();
